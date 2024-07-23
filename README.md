@@ -3,13 +3,21 @@ This project is a multilingual language detection system that uses a Naive Bayes
 
 ## Files and Folders
 **templates/:** Contains the HTML and CSS files for the Flask web application.
+
 index.html: The main interface for user interaction.
+
 styles.css: The stylesheet for the web interface.
+
 **Language Detection.csv:** The dataset containing text in multiple languages and their corresponding language names.
+
 **Language Detector.ipynb:** Jupyter notebook used for training the language detection model.
+
 **app.ipynb:** Jupyter notebook for creating and testing the Flask application.
+
 **model.pkl:** The trained Naive Bayes model saved as a pickle file.
+
 **tfidf_vectorizer.pkl:** The TF-IDF vectorizer used for text transformation saved as a pickle file.
+
 **README.md:** This readme file.
 
 ## Model Training
